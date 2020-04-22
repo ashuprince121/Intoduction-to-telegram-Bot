@@ -14,7 +14,7 @@ def handle_text(update,context):
 
 
 def main():
-    updater = Updater("1251213895:AAGHvZRQ72llWWgEVgP3VWFFahb87y_T-7Y", use_context=True)
+    updater = Updater("YOUR-BOT-API-KEY", use_context=True)
 
     dp =updater.dispatcher #this is where you register your handlers
 
